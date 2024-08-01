@@ -23,5 +23,6 @@ fn main() {
     let deck = Deck {cards};
     // vec![] is the same as Vec::new
     // :? is a debug formatter
-    println!("here comes your deck: {:?}", deck);
+    // #:? prints in a pretty  format - one entry per line
+    println!("here comes your deck: {:#?}", deck);
 }
