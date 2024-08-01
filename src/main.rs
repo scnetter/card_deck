@@ -11,4 +11,5 @@ fn main() {
     // vec![] is the same as Vec::new
     // :? is a debug formatter
     println!("here comes your deck: {:?}", deck);
+    println!("Test");
 }
